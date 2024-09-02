@@ -2,7 +2,7 @@ const express = require('express');
 const https = require('https');
 
 const app = express();
-const PORT = 3000; // You can set this to any port you'd like
+const PORT = 3000;
 
 // Function to fetch HTML from Time.com
 function fetchHTML(url, callback) {
